@@ -3,31 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "MERN Authentication App",
   "dependencies": {
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "env": "^0.0.2",
-    "express": "^5.1.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.19.3"
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/singhrabindra006/backend.git"
-  },
-  "bugs": {
-    "url": "https://github.com/singhrabindra006/backend/issues"
-  },
-  "homepage": "https://github.com/singhrabindra006/backend#readme",
-  "description": ""
+  }
 }
